@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/agent_nav_profile"
+            android:icon="@drawable/ic_profile2"
+            android:iconTint="#ffff"
+            android:title="Profile" />
+        <item
+            android:id="@+id/agent_nav_hotel_facilities"
+            android:iconTint="#ffff"
+            android:icon="@drawable/ic_facilities"
+            android:title="Hotel facilities" />
+        <item
+            android:id="@+id/agent_nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:iconTint="#ffff"
+            android:title="Settings" />
+        <item
+            android:id="@+id/agent_nav_logout"
+            android:icon="@drawable/logout"
+            android:iconTint="#ffff"
+            android:title="Logout" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/agent_nav_contact_admin"
+                android:icon="@drawable/ic_phone"
+                android:iconTint="#ffff"
+                android:title="contact admin" />
+            <item
+                android:id="@+id/agent_nav_send"
+                android:iconTint="#ffff"
+                android:icon="@drawable/ic_emai"
+                android:title="send" />
+        </menu>
+    </item>
+</menu>

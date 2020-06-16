@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/user_bookings_card_room_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/user_bookings_card_room_image"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/user_bookings_card_hotel_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hotel name"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_bookings_card_hotel_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_bookings_card_hotel_name"
+                android:text="hotel address"
+                android:textColor="#000"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/user_bookings_room_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_bookings_card_hotel_address"
+                android:layout_marginTop="3dp"
+                android:text="room type:"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/user_bookings_no_of_rooms"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_bookings_room_type"
+                android:layout_marginTop="3dp"
+                android:text="no of rooms"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/user_bookings_no_of_persons"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_bookings_room_type"
+                android:layout_marginTop="3dp"
+                android:layout_toRightOf="@+id/user_bookings_no_of_rooms"
+                android:text="no of persons"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/user_bookings_dates"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_bookings_no_of_persons"
+                android:layout_marginTop="3dp"
+                android:text="Booking dates"
+                android:textColor="#000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/user_bookings_card_total_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_bookings_dates"
+                android:layout_marginTop="5dp"
+                android:text="Total price"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/user_bookings_payment_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/user_bookings_card_total_price"
+                android:layout_marginTop="5dp"
+                android:text="Payment status"
+                android:textColor="#000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

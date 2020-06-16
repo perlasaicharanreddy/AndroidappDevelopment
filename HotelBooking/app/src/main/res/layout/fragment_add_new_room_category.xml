@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agent.AddNewRoomCategoryFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/slogan_category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:layout_marginBottom="15dp"
+            android:text="Add New Room"
+            android:textAlignment="center"
+            android:textSize="26sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linear1_catogory_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/slogan_category"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/single_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/single_room_image"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/singleroom" />
+
+                <TextView
+                    android:id="@+id/single_room_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/single_room_image"
+                    android:layout_centerHorizontal="true"
+                    android:text="single room"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/double_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/double_room_image"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/doubleroom" />
+
+                <TextView
+                    android:id="@+id/double_room_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/double_room_image"
+                    android:layout_centerHorizontal="true"
+                    android:text="double room"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/triple_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/triple_room_image"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/tripleroom" />
+
+                <TextView
+                    android:id="@+id/triple_room_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/triple_room_image"
+                    android:layout_centerHorizontal="true"
+                    android:text="triple room"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear2_catogory_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear1_catogory_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/twin_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/twin_room_image"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/twinroom" />
+
+                <TextView
+                    android:id="@+id/twin_room_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/twin_room_image"
+                    android:layout_centerHorizontal="true"
+                    android:text="twin room"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/suite_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/suite_room_image"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/suiteroom" />
+
+                <TextView
+                    android:id="@+id/suite_room_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/suite_room_image"
+                    android:layout_centerHorizontal="true"
+                    android:text="suite room"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/connecting_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/connecting_room_image"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/connectingroom" />
+
+                <TextView
+                    android:id="@+id/connecting_room_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/connecting_room_image"
+                    android:layout_centerHorizontal="true"
+                    android:text="connecting room"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear3_catogory_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linear2_catogory_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/villa_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/villa_room_image"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/villa" />
+
+                <TextView
+                    android:id="@+id/villa_room_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/villa_room_image"
+                    android:layout_centerHorizontal="true"
+                    android:text="villa"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/junior_suite_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp">
+
+                <ImageView
+                    android:id="@+id/junior_suite_room_image"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/suiteroom" />
+
+                <TextView
+                    android:id="@+id/junior_suite_room_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/junior_suite_room_image"
+                    android:layout_centerHorizontal="true"
+                    android:text="Junior suite room"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/apartment_room"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/apartment_room_image"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:src="@drawable/apartmentroom" />
+
+                <TextView
+                    android:id="@+id/apartment_room_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/apartment_room_image"
+                    android:layout_centerHorizontal="true"
+                    android:text="apartment room"
+                    android:textAlignment="center"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:animateLayoutChanges="true"
+    android:background="@drawable/image48"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/agent_profile_image_nav"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_above="@+id/agent_profile_name_nav"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/agent_profile_name_nav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:text="Agent name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="15sp"
+        android:layout_marginLeft="7dp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

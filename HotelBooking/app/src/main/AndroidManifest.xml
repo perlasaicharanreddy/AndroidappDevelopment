@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotelbooking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Login.PhoneOrEmailLoginActivity"></activity>
+        <activity android:name=".Users.SearchActivity" />
+        <activity android:name=".Admin.AdminProfileActivity" />
+        <activity android:name=".Users.UserAllRoomsActivity" />
+        <activity android:name=".Admin.AdminCheckAgentRoomsActivity" />
+        <activity android:name=".Admin.AdminCheckUsersBookingsActivity" />
+        <activity android:name=".Users.UserProfileActivity" />
+        <activity android:name=".Login.AdminLoginActivity" />
+        <activity android:name=".Admin.AdminHomeActivity" />
+        <activity android:name=".Agent.AgentEditRoomActivity" />
+        <activity android:name=".Users.UpiPaymentActivity" />
+        <activity android:name=".Users.PaymentOrPayAtHotelActivity" />
+        <activity
+            android:name=".Users.UserBookRoomActivity"
+            android:theme="@style/AppTheme1" />
+        <activity android:name=".Users.UserSelectedRoomPreviewActivity" />
+        <activity android:name=".Agent.AgentProfileActivity" />
+        <activity android:name=".Agent.HotelDetailsActivity" />
+        <activity android:name=".Users.UserSelectedTypeRoomsViewActivity" />
+        <activity android:name=".Agent.AddNewRoomActivity" />
+        <activity android:name=".Users.UserHomeActivity" />
+        <activity android:name=".Login.EmailSignInActivity" />
+        <activity android:name=".Login.SignInORSignUpActivity" />
+        <activity android:name=".Agent.AgentHomeActivity" />
+        <activity android:name=".Agent.AgentRegistrationActivity" />
+        <activity android:name=".Login.EmailSignUpactivity" />
+        <activity android:name=".Login.HomeSigninActivity" />
+        <activity android:name=".Login.PhoneSignUpActivity" />
+        <activity android:name=".Login.UserRegistrationActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

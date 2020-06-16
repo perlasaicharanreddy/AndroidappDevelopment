@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image28"
+    tools:context=".Agent.AgentEditRoomActivity">
+
+    <ImageView
+        android:id="@+id/agent_edit_room_img"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/select_room_image" />
+
+    <EditText
+        android:id="@+id/agent_edit_ac_or_nonac"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agent_edit_room_img"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputs1"
+        android:hint="Ac or non Ac Room...."
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/agent_edit_room_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agent_edit_ac_or_nonac"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputs1"
+        android:hint="room description...."
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/agent_edit_room_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agent_edit_room_description"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputs1"
+        android:hint="room price...."
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/agent_edit_no_of_rooms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agent_edit_room_price"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputs1"
+        android:hint="No of rooms...."
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <Button
+        android:id="@+id/agent_edit_update_room"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agent_edit_no_of_rooms"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buttons1"
+        android:text="Update Room"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

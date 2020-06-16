@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/agent_room_card_view"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/agent_card_room_image"
+            android:layout_width="match_parent"
+            android:layout_height="220dp" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/agent_card_room_image"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:id="@+id/agent_card_room_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Room type"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/agent_card_no_of_rooms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/agent_card_room_type"
+                android:text="No of rooms"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/agent_card_room_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/agent_card_no_of_rooms"
+                android:layout_marginTop="9dp"
+                android:text="Room price"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/agent_card_room_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/agent_card_room_price"
+                android:layout_marginTop="4dp"
+                android:text="Room description"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

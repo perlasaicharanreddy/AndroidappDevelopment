@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image9"
+    tools:context=".Login.EmailSignUpactivity">
+
+
+    <EditText
+        android:id="@+id/register_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/inputs1"
+        android:drawableStart="@drawable/email"
+        android:hint="Email ..."
+        android:padding="4dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/register_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_email"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/inputs1"
+        android:drawableStart="@drawable/password"
+        android:hint="Password ..."
+        android:padding="4dp"
+        android:textColor="#FFF"
+        android:textColorHint="#FFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/email_signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_password"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons1"
+        android:padding="4dp"
+        android:text="Sign in"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

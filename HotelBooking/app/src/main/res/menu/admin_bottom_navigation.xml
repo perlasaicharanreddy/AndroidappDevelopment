@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/admin_bottom_nav_manage_users"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Manage Users" />
+    <item
+        android:id="@+id/admin_nav_manage_agents"
+        android:enabled="true"
+        android:icon="@drawable/ic_manage"
+        android:title="Manage Agents" />
+    <item
+        android:id="@+id/admin_nav_manage_rooms"
+        android:enabled="true"
+        android:icon="@drawable/bookings"
+        android:title="Manage Rooms" />
+</menu>

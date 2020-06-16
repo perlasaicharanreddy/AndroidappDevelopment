@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/user_bottom_nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/user_bottom_nav_saved"
+        android:icon="@drawable/saved"
+        android:title="Saved" />
+    <item
+        android:id="@+id/user_bottom_nav_bookings"
+        android:icon="@drawable/bookings"
+        android:title="Bookings" />
+
+
+</menu>

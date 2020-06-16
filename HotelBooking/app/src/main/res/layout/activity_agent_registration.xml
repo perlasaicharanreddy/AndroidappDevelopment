@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agent.AgentRegistrationActivity"
+    android:background="@drawable/image25">
+
+    <TextView
+        android:id="@+id/title_agent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Agent Registration Form"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+    <EditText
+        android:id="@+id/agent_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_agent"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:hint="Name" />
+
+    <EditText
+        android:id="@+id/agent_mobile_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agent_name"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginRight="15dp"
+        android:hint="Phone no" />
+
+    <EditText
+        android:id="@+id/agent_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agent_mobile_no"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:hint="Email" />
+
+    <EditText
+        android:id="@+id/hotel_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agent_email"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginRight="15dp"
+        android:hint="Hotel Name" />
+
+    <EditText
+        android:id="@+id/hotel_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotel_name"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:hint="Hotel Address" />
+
+    <EditText
+        android:id="@+id/hotel_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotel_address"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:hint="City" />
+
+    <EditText
+        android:id="@+id/hotel_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotel_city"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:hint="State" />
+
+    <EditText
+        android:id="@+id/hotel_pincode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotel_state"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:layout_marginTop="8dp"
+        android:layout_marginRight="15dp"
+        android:hint="Pin code" />
+
+    <Button
+        android:id="@+id/create_agent_acc_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/buttons1"
+        android:text="Create Account"
+        android:layout_marginBottom="30dp"
+        android:textColor="#FFF"
+        android:textAllCaps="false"
+        android:textSize="20sp" />
+</RelativeLayout>

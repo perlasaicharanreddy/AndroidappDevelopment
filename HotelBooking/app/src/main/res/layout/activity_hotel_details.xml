@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image33"
+    tools:context=".Agent.HotelDetailsActivity">
+
+    <TextView
+        android:id="@+id/hotel_facilities_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="Update Hotel Facilities"
+        android:textColor="#000"
+        android:textSize="25sp"
+        android:textStyle="normal" />
+
+
+    <ImageView
+        android:id="@+id/select_hotel_img"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:layout_below="@+id/hotel_facilities_heading"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/select_room_image" />
+
+    <EditText
+        android:id="@+id/hotel_facility1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/select_hotel_img"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputs1"
+        android:hint="Hotel facility1"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/hotel_facility2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotel_facility1"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputs1"
+        android:hint="Hotel facility2"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/hotel_facility3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotel_facility2"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputs1"
+        android:hint="Hotel facility3"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <EditText
+        android:id="@+id/hotel_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotel_facility3"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/inputs1"
+        android:hint="Hotel Description"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="#000"
+        android:textColorHint="#000" />
+
+    <Button
+        android:id="@+id/update_hotel_details_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hotel_description"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/buttons1"
+        android:text="Update hotel details"
+        android:textAllCaps="false"
+        android:textColor="#FFFF"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
