@@ -1,14 +1,12 @@
-﻿**Book Now** 
-
-**Online Hotel Booking System**
+﻿# Book Now Online Hotel Booking System
 
 Tools and Tech used  :   Android studio, Java,  Firebase database. 
 
-Code Link: [` `**https://github.com/perlasaicharanreddy/AndroidappDevelopment/tree/master/HotelBooking** ](https://github.com/perlasaicharanreddy/AndroidappDevelopment/tree/master/HotelBooking)
+Code Link: [**https://github.com/perlasaicharanreddy/AndroidappDevelopment/tree/master/HotelBooking** ](https://github.com/perlasaicharanreddy/AndroidappDevelopment/tree/master/HotelBooking)
 
-Android apk link[:**https://drive.google.com/file/d/1GEs6tPI88h7Hkg_N5X1qEXSu8PGxe8bW/view?usp=sharing** ](https://drive.google.com/file/d/1GEs6tPI88h7Hkg_N5X1qEXSu8PGxe8bW/view?usp=sharing)
+Android apk link: [**https://drive.google.com/file/d/1GEs6tPI88h7Hkg_N5X1qEXSu8PGxe8bW/view?usp=sharing** ](https://drive.google.com/file/d/1GEs6tPI88h7Hkg_N5X1qEXSu8PGxe8bW/view?usp=sharing)
 
-**1.ABSTRACT** 
+**1.Abstract** 
 
 This is an online hotel booking system designed using android studio and Firebase database. This app helps the user reserve the hotel room of customer choice online. 
 
@@ -20,7 +18,7 @@ If the user is business owner, then User can add business to the mybooking app a
 
 The system admin can manage app. Admin can manage user and agents(business owner ) accounts . he can also remove any user or agent account if he wish. 
 
-**2.INTRODUCTION** 
+**2.Introduction** 
 
 With the ever expanding use of the internet and online travel booking sites for vacation planning, opportunities may exist for niche travel reservation offerings in the Online Travel Agency industry. My booking app is a new app developed to provide an online travel reservation service, specialized in Hotel room reservation services. The app plans to offer hotel accommodation service distribution for many types of hotel properties, from small independent hotels to five star luxury residences worldwide. 
 
@@ -45,23 +43,23 @@ After analyzed various traditional hotel room booking system, I had noticed the 
 - There is no centralized database can be created as information not at one place. 
 - More money and paper and other resources are wasted to store the record of available rooms and customers 
 
-**DISADVANTAGES OF THE MANUAL SYSTEM** 
+**Disadvantages of the manual System** 
 
-1. There is maximum possibility of losing customers record and files or mix up customer’s record. 
-1. As we are not sure and we can to re use past records, unwanted duplication of information and data is possible. 
-1. As the actual file is available, there are chances that one can use the files and information whiteout permission or right. 
-1. Maintaining file security and standard is difficult 
-1. As very easy access to guest information by unintended users, guest information is extremely unconfidential. 
-1. Reusing or retrieves of guest records is extremely difficult. 
-1. Human are required to fill forms and enter data, manual data entry leaves to errors. 
+- There is maximum possibility of losing customers record and files or mix up customer’s record. 
+- As we are not sure and we can to re use past records, unwanted duplication of information and data is possible. 
+- As the actual file is available, there are chances that one can use the files and information whiteout permission or right. 
+- Maintaining file security and standard is difficult 
+- As very easy access to guest information by unintended users, guest information is extremely unconfidential. 
+- Reusing or retrieves of guest records is extremely difficult. 
+- Human are required to fill forms and enter data, manual data entry leaves to errors. 
 
-4. **OBJECTIVE** 
+4. **Objective** 
 - With this app Customers can easily go online with their mobile phones or tablets to browse about hotels within their vicinity. 
 - Guests can be able to book for rooms within their budgets after seeing and accessing these hotels within their vicinity. 
 - Receptionists can easily access customer’s information online without delay or with little delay. 
 - Fraud done by the receptionist by not registering every customer will not occur because the customers details will be online and can be accessed by the managers too. 
 
-5. **SCOPE** 
+5. **Scope** 
 
 This project is aimed at developing an online application for hotel reservation. This system can be used by end users (Customer and hotel owners i.e agents) and administrator to perform extensible tasks, to reserve and sale hotel room in an easy and secure manner. The following facilities have been implemented : 
 
@@ -71,7 +69,7 @@ This project is aimed at developing an online application for hotel reservation.
 
 In  addition  to  the  above  mentioned  basic  functional  requirements  for  the  project,  the  following supplementary requirements as well. I have created app navigation so that the customers can search for rooms and reserve or save to their account to reserve it later. A sorting mechanism for rooms by city. Module for a contact mechanism for the rooms from the customers has also been implemented. 
 
-6. **Application Screen shots** 
+6. **Application Screenshots** 
 
 **Login page** 
 
@@ -81,7 +79,7 @@ In  addition  to  the  above  mentioned  basic  functional  requirements  for  t
 
 ![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.003.jpeg) ![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.004.jpeg)
 
-User Home page 
+**User Home page** 
 
 ![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.005.jpeg) ![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.006.jpeg)
 
@@ -89,9 +87,9 @@ User Home page
 
 ![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.007.jpeg) ![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.008.jpeg)
 
-` `Payment Page 
+**Payment Page** 
 
-` `![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.009.jpeg)![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.010.jpeg)
+![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.009.jpeg)![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.010.jpeg)
 
 **User Profile** 
   
@@ -106,27 +104,21 @@ User Home page
 
 ![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.013.png)
 
-**9.ACTIVITIES CREATED IN PROJECT** 
+**9.Activities Created in Project** 
 
 ![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.014.png) ![](HotelBooking/readmeimages/Aspose.Words.c3dc68cc-2312-4ef4-89f2-1b46865c1335.015.png)
 
-**10.CONCLUSION** 
+**10.Conclusion** 
 
 The Online Hotel Reservation System was developed to replace the manual process of booking for a hotel room or any other facility of the hotel. The old system does not serve the customer in a better way; rather it makes customer data vulnerable. The new system keeps proper records of customers for emergency and security purposes. The hotel’s advertising effort is now accompanied by a virtual tour created on the system. 
 
 With this online hotel booking system Customers can easily go online with their mobile phones or tablets to browse about hotels within their vicinity. Guests can be able to book for rooms within their budgets after seeing and accessing these hotels within their vicinity. Receptionists can easily access customer’s information online without delay. Thus it simplifies complicated work into simple and easy way through this app. 
 
-**11.REFERENCES** 
+**11.References** 
 
-Youtube : Link:<https://www.youtube.com/watch?v=6keVIot98QU&list=PLxefhmF0pcPlqmH_VfWneUjfuqhreUz-O>
+Youtube : <https://www.youtube.com/watch?v=6keVIot98QU&list=PLxefhmF0pcPlqmH_VfWneUjfuqhreUz-O>
 
-Udemy:
+Udemy: <https://www.udemy.com/course/the-complete-android-oreo-developer-course/>
 
-Link:<https://www.udemy.com/course/the-complete-android-oreo-developer-course/>
-
-Stack overflow: 
-
-Link:[ https://stackoverflow.com/](https://stackoverflow.com/)
-
-I have searched on google while I get doubts and errors in middle while doing project. Like stack overflow .from which I could clarify solve an error or problem. 
-16 
+Stack overflow: [ https://stackoverflow.com/](https://stackoverflow.com/)
+ 
